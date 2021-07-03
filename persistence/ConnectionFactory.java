@@ -7,8 +7,8 @@ import java.sql.SQLException;
 public class ConnectionFactory {
 	public static Connection getConnection() throws SQLException {
 		String url_con = "jdbc:mysql://127.0.0.1/test";
-		String user = "jana";
-		String senha = "jana";
+		String user = "xxxx";
+		String senha = "xxxx";
 		return DriverManager.getConnection(url_con,user,senha );
 }
 }
